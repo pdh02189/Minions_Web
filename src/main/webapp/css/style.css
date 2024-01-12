@@ -1,1 +1,158 @@
 @charset "UTF-8";
+
+#wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.d_flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.f_center {
+	align-items: center;
+	justify-content: center;
+}
+
+/* header */
+header {
+	width: 100%;
+	border-bottom: 2px solid #f9c02d;
+}
+.header_inner {
+	position: relative;
+	width: 920px;
+	height: 180px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.top_nav ul li a {
+	margin-right: 10px;
+	font-size: 14px;
+	color: #666;
+	font-weight: 500;
+	transition: all .2s;
+}
+.top_nav ul li a:hover {
+	color: #000;
+}
+
+.logo {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.sns {
+	margin-left: auto;
+}
+.sns li a{
+	margin-left: 10px;
+	transition: all .2s;
+}
+.sns li a:hover {
+	opacity: .7;
+}
+
+/* main */
+main {
+	width: 100%;
+	flex-direction: column;
+}
+
+.gnb {
+	width: 920px;
+}
+.gnb ul li a{
+	padding: 20px;
+	font-size: 18px;
+	color: #f9c02d;
+	font-weight: 700;
+	transition: all .2s;
+}
+.gnb ul li a:hover {
+	color: #000;
+}
+
+.visual {
+	position: relative;
+	width: 920px;
+}
+.visual_img {
+	position: absolute;
+	bottom: -125px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.character {
+	position: relative;
+	width: 920px;
+	margin: 60px 0;
+	margin-top: 120px;
+}
+.character h2 {
+	font-size: 30px;
+	color: #f9c02d;
+	font-weight: 900;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+.character ul li {
+	box-sizing: border-box;
+	border: 1px solid #f9c02d;
+	width: calc(100%/3);
+	overflow: hidden;
+}
+.character ul li img {
+	transition: all .2s;
+}
+.character ul li:hover img {
+	transform: translateY(-5px);
+}
+.character ul li:not(:first-child) {
+	border-left: none;
+}
+
+.banner {
+	width: 100%;
+	background-color: #f9c02d;
+}
+.banner_inner {
+	width: 920px;
+}
+
+/* footer */
+footer {
+	width: 100%;
+	padding: 40px 0
+}
+.footer_inner {
+	position: relative;
+	width: 920px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.bottom_nav ul li a {
+	font-size: 15px;
+	color: #888;
+	transition: all .2s;
+	margin-right: 15px;
+	font-weight: 600;
+}
+.bottom_nav ul li a:hover {
+	color: #000;
+}
+.copy {
+	margin-top: 10px;
+	font-size: 11px;
+	color: #888;
+}
+
+.f_logo {
+	margin-left: auto;
+}
