@@ -4,9 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>미니언즈</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css">
-<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+<script type="text/javascript" src="js/main.js"></script>
 <link rel="shortcut icon" href="images/favicon.png">
 </head>
 <body>
@@ -44,6 +48,49 @@
 						</a>
 					</li>
 				</ul>
+				<div class="mobile_menu">
+                    <div class="header_btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="side_menu">
+                    	<div class="black"></div>
+                    	<div class="white">
+                    		<nav class="m_gnb">
+                    			<ul class="d_flex">
+                    				<li><a href="#" class="d_flex">미니언즈 소개</a></li>
+									<li><a href="#" class="d_flex">캐릭터정보</a></li>
+									<li><a href="#" class="d_flex">커뮤니티</a></li>
+									<li><a href="#" class="d_flex">제휴업체</a></li>
+									<li><a href="#" class="d_flex">사이트맵</a></li>
+                    			</ul>
+                    		</nav>
+                    		<div class="btn_wrap">
+                    			<button type="button">로그인</button>
+                    			<button type="button">회원가입</button>
+                    		</div>
+                    		<ul class="m_sns d_flex f_center">
+								<li>
+									<a href="#" class="d_flex f_center">
+										<img src="images/sns_icon1.png" alt="sns 아이콘">
+									</a>
+								</li>
+								<li>
+									<a href="#" class="d_flex f_center">
+										<img src="images/sns_icon2.png" alt="sns 아이콘">
+									</a>
+								</li>
+								<li>
+									<a href="#" class="d_flex f_center">
+										<img src="images/sns_icon3.png" alt="sns 아이콘">
+									</a>
+								</li>
+							</ul>
+                    	</div>
+                    </div>
+                </div>
+                
 			</div>
 		</header>
 		<main class="d_flex f_center">
@@ -57,7 +104,9 @@
 				</ul>
 			</nav>
 			<div class="visual d_flex">
-				<iframe width="920" height="460" src="https://www.youtube.com/embed/vTewvGKxVrw?si=ph3td5j6dEq-2gQC&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				<div class="visual_inner">
+					<iframe width="920" height="460" src="https://www.youtube.com/embed/vTewvGKxVrw?si=ph3td5j6dEq-2gQC&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
 				<div class="visual_img">
 					<img src="images/visual_img.png" alt="캐릭터 이미지">
 				</div>
@@ -81,6 +130,25 @@
 						</a>
 					</li>
 				</ul>
+				<div class="mySwiper">
+					<ul class="swiper-wrapper d_flex">
+						<li class="swiper-slide">
+							<a href="#" class="d_flex f_center">
+								<img src="images/char1.jpg" alt="캐릭터">
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#" class="d_flex f_center">
+								<img src="images/char2.jpg" alt="캐릭터">
+							</a>
+						</li>
+						<li class="swiper-slide">
+							<a href="#" class="d_flex f_center">
+								<img src="images/char3.jpg" alt="캐릭터">
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="banner d_flex f_center">
 				<div class="banner_inner d_flex">
